@@ -1,0 +1,24 @@
+C:\Users\Admin\Desktop\studia zaliczenia czerwiec\bytner laby online .net\Zadanie 3\Zadanie 3\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Admin\Desktop\studia zaliczenia czerwiec\bytner laby online .net\Zadanie 3\Zadanie 3\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Admin\Desktop\studia zaliczenia czerwiec\bytner laby online .net\Zadanie 3\Zadanie 3\obj\Debug\net8.0-windows\Zadanie 3_MarkupCompile.cache
+C:\Users\Admin\Desktop\studia zaliczenia czerwiec\bytner laby online .net\Zadanie 3\Zadanie 3\obj\Debug\net8.0-windows\Zadanie 3_MarkupCompile.lref
+C:\Users\Admin\Desktop\studia zaliczenia czerwiec\bytner laby online .net\Zadanie 3\Zadanie 3\obj\Debug\net8.0-windows\EditWindow.g.cs
+C:\Users\Admin\Desktop\studia zaliczenia czerwiec\bytner laby online .net\Zadanie 3\Zadanie 3\bin\Debug\net8.0-windows\Zadanie 3.exe
+C:\Users\Admin\Desktop\studia zaliczenia czerwiec\bytner laby online .net\Zadanie 3\Zadanie 3\bin\Debug\net8.0-windows\Zadanie 3.deps.json
+C:\Users\Admin\Desktop\studia zaliczenia czerwiec\bytner laby online .net\Zadanie 3\Zadanie 3\bin\Debug\net8.0-windows\Zadanie 3.runtimeconfig.json
+C:\Users\Admin\Desktop\studia zaliczenia czerwiec\bytner laby online .net\Zadanie 3\Zadanie 3\bin\Debug\net8.0-windows\Zadanie 3.dll
+C:\Users\Admin\Desktop\studia zaliczenia czerwiec\bytner laby online .net\Zadanie 3\Zadanie 3\bin\Debug\net8.0-windows\Zadanie 3.pdb
+C:\Users\Admin\Desktop\studia zaliczenia czerwiec\bytner laby online .net\Zadanie 3\Zadanie 3\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Admin\Desktop\studia zaliczenia czerwiec\bytner laby online .net\Zadanie 3\Zadanie 3\obj\Debug\net8.0-windows\EditWindow.baml
+C:\Users\Admin\Desktop\studia zaliczenia czerwiec\bytner laby online .net\Zadanie 3\Zadanie 3\obj\Debug\net8.0-windows\Zadanie 3.g.resources
+C:\Users\Admin\Desktop\studia zaliczenia czerwiec\bytner laby online .net\Zadanie 3\Zadanie 3\obj\Debug\net8.0-windows\Zadanie 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\studia zaliczenia czerwiec\bytner laby online .net\Zadanie 3\Zadanie 3\obj\Debug\net8.0-windows\Zadanie 3.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\studia zaliczenia czerwiec\bytner laby online .net\Zadanie 3\Zadanie 3\obj\Debug\net8.0-windows\Zadanie 3.AssemblyInfo.cs
+C:\Users\Admin\Desktop\studia zaliczenia czerwiec\bytner laby online .net\Zadanie 3\Zadanie 3\obj\Debug\net8.0-windows\Zadanie 3.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\studia zaliczenia czerwiec\bytner laby online .net\Zadanie 3\Zadanie 3\obj\Debug\net8.0-windows\Zadanie 3.dll
+C:\Users\Admin\Desktop\studia zaliczenia czerwiec\bytner laby online .net\Zadanie 3\Zadanie 3\obj\Debug\net8.0-windows\refint\Zadanie 3.dll
+C:\Users\Admin\Desktop\studia zaliczenia czerwiec\bytner laby online .net\Zadanie 3\Zadanie 3\obj\Debug\net8.0-windows\Zadanie 3.pdb
+C:\Users\Admin\Desktop\studia zaliczenia czerwiec\bytner laby online .net\Zadanie 3\Zadanie 3\obj\Debug\net8.0-windows\Zadanie 3.genruntimeconfig.cache
+C:\Users\Admin\Desktop\studia zaliczenia czerwiec\bytner laby online .net\Zadanie 3\Zadanie 3\obj\Debug\net8.0-windows\ref\Zadanie 3.dll
+C:\Users\Admin\Desktop\studia zaliczenia czerwiec\bytner laby online .net\Zadanie 3\Zadanie 3\obj\Debug\net8.0-windows\AddWindow.g.cs
+C:\Users\Admin\Desktop\studia zaliczenia czerwiec\bytner laby online .net\Zadanie 3\Zadanie 3\obj\Debug\net8.0-windows\AddWindow.baml

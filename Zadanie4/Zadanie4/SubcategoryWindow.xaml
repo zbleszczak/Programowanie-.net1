@@ -1,0 +1,22 @@
+<Window x:Class="Zadanie4.SubcategoryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Podkategorie" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <TextBlock FontWeight="Bold" Text="{Binding Category.Name}" />
+            <TextBlock Text="{Binding Category.Description}" />
+        </StackPanel>
+        <ListBox Grid.Row="1" x:Name="subcategoryListBox" SelectionChanged="SubcategoryListBox_SelectionChanged">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Name}" />
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</Window>

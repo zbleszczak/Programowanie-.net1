@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfBook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Book>
+    <Title>coś</Title>
+    <Author>ktosiek</Author>
+    <Publisher>firma</Publisher>
+    <Genre>Romance</Genre>
+    <PageCount>0</PageCount>
+    <PublicationDate>2001-02-02T00:00:00</PublicationDate>
+  </Book>
+</ArrayOfBook>

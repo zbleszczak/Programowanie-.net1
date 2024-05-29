@@ -1,0 +1,36 @@
+﻿<Window x:Class="Zadanie_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zadanie_3"
+        mc:Ignorable="d"
+        Title="Book Library" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <ListView x:Name="BookListView" ItemsSource="{Binding BookList}" Grid.Row="0" Margin="10" SelectionMode="Extended">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Title" DisplayMemberBinding="{Binding Title}"/>
+                    <GridViewColumn Header="Author" DisplayMemberBinding="{Binding Author}"/>
+                    <GridViewColumn Header="Publisher" DisplayMemberBinding="{Binding Publisher}"/>
+                    <GridViewColumn Header="Genre" DisplayMemberBinding="{Binding Genre}"/>
+                    <GridViewColumn Header="Pages" DisplayMemberBinding="{Binding PageCount}"/>
+                    <GridViewColumn Header="Publication Date" DisplayMemberBinding="{Binding PublicationDate, StringFormat='{}{0:yyyy-MM-dd}'}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" Margin="10">
+            <Button x:Name="AddButton" Content="Add" Click="AddButton_Click" Margin="0,0,10,0"/>
+            <Button x:Name="EditButton" Content="Edit" Click="EditButton_Click" Margin="0,0,10,0"/>
+            <Button x:Name="DeleteButton" Content="Delete" Click="DeleteButton_Click" Margin="0,0,10,0"/>
+            <Button x:Name="ImportButton" Content="Import" Click="ImportButton_Click" Margin="0,0,10,0"/>
+            <Button x:Name="ExportButton" Content="Export" Click="ExportButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

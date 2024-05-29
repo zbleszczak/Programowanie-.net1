@@ -1,0 +1,57 @@
+<Window x:Class="Zadanie_3.AddWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zadanie_3"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="Add Book" Height="400" Width="300">
+
+    <Window.Resources>
+        <ObjectDataProvider x:Key="genreValues" MethodName="GetValues" ObjectType="{x:Type sys:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="local:BookGenre"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Content="Title:" Grid.Row="0" Grid.Column="0" Margin="5"/>
+        <TextBox x:Name="TitleTextBox" Grid.Row="0" Grid.Column="1" Margin="5" Text="{Binding Title}"/>
+
+        <Label Content="Author:" Grid.Row="1" Grid.Column="0" Margin="5"/>
+        <TextBox x:Name="AuthorTextBox" Grid.Row="1" Grid.Column="1" Margin="5" Text="{Binding Author}"/>
+
+        <Label Content="Publisher:" Grid.Row="2" Grid.Column="0" Margin="5"/>
+        <TextBox x:Name="PublisherTextBox" Grid.Row="2" Grid.Column="1" Margin="5" Text="{Binding Publisher}"/>
+
+        <Label Content="Genre:" Grid.Row="3" Grid.Column="0" Margin="5"/>
+        <ComboBox x:Name="GenreComboBox" Grid.Row="3" Grid.Column="1" Margin="5" ItemsSource="{Binding Source={StaticResource genreValues}}" SelectedItem="{Binding Genre}"/>
+
+        <Label Content="Page Count:" Grid.Row="4" Grid.Column="0" Margin="5"/>
+        <TextBox x:Name="PageCountTextBox" Grid.Row="4" Grid.Column="1" Margin="5" Text="{Binding PageCount}"/>
+
+        <Label Content="Publication Date:" Grid.Row="5" Grid.Column="0" Margin="5"/>
+        <DatePicker x:Name="PublicationDatePicker" Grid.Row="5" Grid.Column="1" Margin="5" SelectedDate="{Binding PublicationDate}"/>
+
+        <StackPanel Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="5">
+            <Button x:Name="AddButton" Content="Add" Click="AddButton_Click" Width="60" Margin="0,0,5,0"/>
+            <Button x:Name="CancelButton" Content="Cancel" Click="CancelButton_Click" Width="60"/>
+        </StackPanel>
+    </Grid>
+</Window>

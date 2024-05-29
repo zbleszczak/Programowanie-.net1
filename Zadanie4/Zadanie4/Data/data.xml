@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Categories>
+	<Category Name="Samochody osobowe" Description="Kategoria samochodów osobowych">
+		<Subcategory Name="Toyota" Description="Japoński producent samochodów, założony w 1937 roku." Country="Japonia" FoundingYear="1937">
+			<Vehicle Name="Corolla" Year="2021" EngineCapacity="1.8" DriveType="FWD" />
+			<Vehicle Name="Camry" Year="2020" EngineCapacity="2.5" DriveType="FWD" />
+		</Subcategory>
+		<Subcategory Name="BMW" Description="Niemiecki producent samochodów luksusowych, założony w 1916 roku." Country="Niemcy" FoundingYear="1916">
+			<Vehicle Name="Seria 3" Year="2022" EngineCapacity="2.0" DriveType="RWD" />
+			<Vehicle Name="X5" Year="2021" EngineCapacity="3.0" DriveType="AWD" />
+		</Subcategory>
+	</Category>
+	<Category Name="Motocykle" Description="Kategoria motocykli">
+		<Subcategory Name="Honda" Description="Japoński producent motocykli, założony w 1948 roku." Country="Japonia" FoundingYear="1948">
+			<Vehicle Name="CB500F" Year="2021" EngineCapacity="500" DriveType="Chain" />
+			<Vehicle Name="Gold Wing" Year="2020" EngineCapacity="1800" DriveType="Shaft" />
+		</Subcategory>
+	</Category>
+</Categories>

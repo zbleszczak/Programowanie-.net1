@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfBook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Book>
+    <Title>sdadsa</Title>
+    <Author>dsadas</Author>
+    <Publisher>dsads</Publisher>
+    <Genre>Fantasy</Genre>
+    <PageCount>0</PageCount>
+    <PublicationDate>0001-01-01T00:00:00</PublicationDate>
+  </Book>
+</ArrayOfBook>
